@@ -1,0 +1,94 @@
+
+/* Map Styles */
+.noAlarm {
+	background-color: rgba(181, 226, 140, 0.6);
+	border-radius: 20px;
+	}
+.noAlarm div {
+	background-color: rgba(110, 204, 57, 0.5);
+	color: white;
+    text-align: center;
+	font-weight: bold;
+	width: 30px;
+    padding: 6px 0;
+    margin: 5px;
+    border-radius: 20px;
+	}
+
+.withAlarm {
+	background-color: rgba(253, 55, 115, 0.6);
+	border-radius: 20px;
+	}
+.withAlarm div {
+	background-color: rgba(241, 44, 23, 0.5);
+	color: white;
+    text-align: center;
+	font-weight: bold;
+	width: 30px;
+    padding: 6px 0;
+    margin: 5px;
+    border-radius: 20px;
+	}
+
+	/* IE 6-8 fallback colors */
+.leaflet-oldie .noAlarm {
+	background-color: rgb(181, 226, 140);
+	}
+.leaflet-oldie .noAlarm div {
+	background-color: rgb(110, 204, 57);
+	color: white;
+    text-align: center;
+    font-weight: bold;
+	}
+
+.leaflet-oldie .withAlarm {
+	background-color: rgb(253, 55, 115);
+	}
+.leaflet-oldie .withAlarm div {
+	background-color: rgb(241, 44, 23);
+	color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.marker-cluster {
+	background-clip: padding-box;
+	border-radius: 20px;
+	}
+.marker-cluster div {
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+
+	text-align: center;
+	border-radius: 15px;
+	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	}
+.marker-cluster span {
+	line-height: 30px;
+	}
+
+.defaultCluster {
+	background-color: rgba(8, 169, 255, 0.6);
+	border-radius: 20px;
+	}
+.defaultCluster div {
+	background-color: rgba(0, 140, 255, 0.5);
+	color: white;
+    text-align: center;
+	font-weight: bold;
+	width: 30px;
+    padding: 6px 0;
+    margin: 5px;
+    border-radius: 20px;
+	}
+.sr-only {
+	display: none;
+	}
+
+#container {
+	text-align: center;
+}
+
+/* Map Styles ends */

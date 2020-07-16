@@ -1,0 +1,58 @@
+{
+  "name": "leaflet-wrapper",
+  "version": "1.0.0",
+  "description": "Leaflet Wrapper for React Projects",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://khjabir@github.com/khjabir/leaflet-wrapper.git"
+  },
+  "keywords": [
+    "leaflet-wrapper",
+    "nextjs",
+    "ui-library",
+    "leaflet",
+    "react-maps",
+    "nextjs-maps",
+    "google-maps"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khjabir/leaflet-wrapper/issues"
+  },
+  "homepage": "https://github.com/khjabir/leaflet-wrapper#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.21.0",
+    "rollup-plugin-peer-deps-external": "^2.2.3",
+    "rollup-plugin-postcss": "^3.1.3",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.6"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "leaflet": "^1.6.0",
+    "react-leaflet": "^2.7.0"
+  }
+}
